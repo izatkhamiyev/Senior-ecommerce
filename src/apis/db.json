@@ -6,7 +6,25 @@
             "brand": "rayban",
             "featured": true,
             "recommended": true,
-            "image": "eyeglasses/salt-image-1.png"
+            "image": "/eyeglasses/salt-image-1.png",
+            "imageCollection": [
+                {
+                    "id": 1,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 3,
+                    "url": "/eyeglasses/salt-image-1.png"
+                }
+            ],
+            "availableColors": [
+                "yellow",
+                "red"
+            ]
         },
         
         {
@@ -15,7 +33,25 @@
             "brand": "rayban",
             "featured": false,
             "recommended": true,
-            "image": "eyeglasses/salt-image-1.png"
+            "image": "/eyeglasses/salt-image-1.png",
+            "imageCollection": [
+                {
+                    "id": 1,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 3,
+                    "url": "/eyeglasses/salt-image-1.png"
+                }
+            ],
+            "availableColors": [
+                "yellow",
+                "red"
+            ]
         },
         
         {
@@ -24,7 +60,25 @@
             "brand": "rayban",
             "featured": true,
             "recommended": true,
-            "image": "eyeglasses/salt-image-1.png"
+            "image": "/eyeglasses/salt-image-1.png",
+            "imageCollection": [
+                {
+                    "id": 1,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 3,
+                    "url": "/eyeglasses/salt-image-1.png"
+                }
+            ],
+            "availableColors": [
+                "yellow",
+                "red"
+            ]
         },
         {
             "id": 4,
@@ -32,7 +86,25 @@
             "brand": "rayban",
             "featured": true,
             "recommended": true,
-            "image": "eyeglasses/salt-image-1.png"
+            "image": "/eyeglasses/salt-image-1.png",
+            "imageCollection": [
+                {
+                    "id": 1,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 3,
+                    "url": "/eyeglasses/salt-image-1.png"
+                }
+            ],
+            "availableColors": [
+                "yellow",
+                "red"
+            ]
         },
         
         {
@@ -41,7 +113,25 @@
             "brand": "rayban",
             "featured": true,
             "recommended": true,
-            "image": "eyeglasses/salt-image-1.png"
+            "image": "/eyeglasses/salt-image-1.png",
+            "imageCollection": [
+                {
+                    "id": 1,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 3,
+                    "url": "/eyeglasses/salt-image-1.png"
+                }
+            ],
+            "availableColors": [
+                "yellow",
+                "red"
+            ]
         },
         
         {
@@ -50,7 +140,25 @@
             "brand": "rayban",
             "featured": true,
             "recommended": true,
-            "image": "eyeglasses/salt-image-1.png"
+            "image": "/eyeglasses/salt-image-1.png",
+            "imageCollection": [
+                {
+                    "id": 1,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 3,
+                    "url": "/eyeglasses/salt-image-1.png"
+                }
+            ],
+            "availableColors": [
+                "yellow",
+                "red"
+            ]
         }
     ]
 }

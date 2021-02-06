@@ -17,6 +17,15 @@ class Api {
         products = products.filter(item => item["recommended"] === true);
         return products.slice(0, itemsCount);
     }
+
+    getProduct = (id) => {
+        var products = data['products'];
+        products = products.filter(item => item['id'] == id);
+        if(products.length > 0)
+            return products[0];
+        else
+            return 0;
+    }
 }
 
 const api = new Api()

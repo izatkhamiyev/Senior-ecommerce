@@ -7,11 +7,10 @@ import * as ROUTES from 'constants/routes';
 import PublicRoute from 'routers/PublicRoute';
 import Home from 'views/home';
 import Shop from 'views/shop';
+import ViewProduct from 'views/view_product';
 
-export var history = createBrowserHistory();
 
 const AppRouter = () => (
-	<Router history={history}>
 		<Switch>
 			<PublicRoute
 				component={Home}
@@ -23,13 +22,12 @@ const AppRouter = () => (
 				exact
 				path={ROUTES.SHOP}
 			/>
-			{/* <PublicRoute
+			<PublicRoute
 				component={ViewProduct}
 				path={ROUTES.VIEW_PRODUCT}
 			/>
-			<PublicRoute component={PageNotFound} /> */}
+			{/* <PublicRoute component={PageNotFound} /> */}
 		</Switch>
-	</Router>
 );
 
 export default AppRouter;
