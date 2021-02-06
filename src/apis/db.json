@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "salt1",
+            "brand": "rayban",
+            "featured": true,
+            "recommended": true,
+            "image": "eyeglasses/salt-image-1.png"
+        },
+        
+        {
+            "id": 2,
+            "name": "salt2",
+            "brand": "rayban",
+            "featured": false,
+            "recommended": true,
+            "image": "eyeglasses/salt-image-1.png"
+        },
+        
+        {
+            "id": 3,
+            "name": "salt3",
+            "brand": "rayban",
+            "featured": true,
+            "recommended": true,
+            "image": "eyeglasses/salt-image-1.png"
+        },
+        {
+            "id": 4,
+            "name": "salt4",
+            "brand": "rayban",
+            "featured": true,
+            "recommended": true,
+            "image": "eyeglasses/salt-image-1.png"
+        },
+        
+        {
+            "id": 5,
+            "name": "salt5",
+            "brand": "rayban",
+            "featured": true,
+            "recommended": true,
+            "image": "eyeglasses/salt-image-1.png"
+        },
+        
+        {
+            "id": 6,
+            "name": "salt6",
+            "brand": "rayban",
+            "featured": true,
+            "recommended": true,
+            "image": "eyeglasses/salt-image-1.png"
+        }
+    ]
+}
