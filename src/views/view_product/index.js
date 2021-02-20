@@ -123,7 +123,7 @@ const ViewProduct = () => {
                         >
                             Virtual Try-On
                         </button>
-                        <TryOn show={show} closeModal={closeModal} />
+                        <TryOn show={show} closeModal={closeModal}/>
                     </div>
                 </div>
             </div>
