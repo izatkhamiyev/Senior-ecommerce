@@ -5,6 +5,7 @@ import ImageLoader from 'components/ui/ImageLoader';
 import ProductFeatured from 'components/product/ProductFeatured';
 import CircularProgress from 'components/ui/ImageLoader';
 import MessageDisplay from 'components/ui/MessageDisplay';
+import TryOn from './tryon';
 
 import { SHOP } from 'constants/routes';
 // import { displayMoney, displayActionMessage } from 'helpers/utils';
@@ -24,6 +25,7 @@ const ViewProduct = () => {
     const [product, setProduct] = useState(store.product || null);
     const [selectedSize, setSelectedSize] = useState('');
     const [selectedColor, setSelectedColor] = useState('');
+    const [show, setShow] = useState(false);
     const { recommendedProducts, fetchRecommendedProducts, isLoading, error } = useRecommendedProducts(6);
     const colorOverlay = useRef(null);
     const foundOnBasket = () => store.basket.find(item => item.id === product.id);
@@ -45,6 +47,14 @@ const ViewProduct = () => {
         setSelectedColor(color);
         colorOverlay.current.value = color;
     };
+
+    const showModal = () => {
+        setShow(true);
+    }
+
+    const closeModal = () => {
+        setShow(false);
+    }
 
     return product ? (
         <div className="product-view">
@@ -109,13 +119,17 @@ const ViewProduct = () => {
                         >
                             {foundOnBasket() ? 'Remove From Basket' : 'Add To Basket'}
                         </button>
+                        <button style={{marginLeft:'5px'}} className='button button-small' onClick={e => {showModal(e)}}
+                        >
+                            Virtual Try-On
+                        </button>
+                        <TryOn show={show} closeModal={closeModal} />
                     </div>
                 </div>
             </div>
             <div style={{ marginTop: '10rem' }}>
                 <div className="display-header">
                     <h1>Recommended</h1>
-                    {/* <Link to={RECOMMENDED_PRODUCTS}>See All</Link> */}
                 </div>
                 <div className="product-display-grid">
                     {error ? (
