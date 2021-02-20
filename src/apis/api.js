@@ -26,6 +26,11 @@ class Api {
         else
             return 0;
     }
+
+    getProducts = () => {
+        var products = data['products'];
+        return products;
+    }
 }
 
 const api = new Api()

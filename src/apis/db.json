@@ -2,11 +2,12 @@
     "products": [
         {
             "id": 1,
-            "name": "salt1",
+            "name": "eyeglasess_transparent",
             "brand": "rayban",
             "featured": true,
             "recommended": true,
             "image": "/eyeglasses/salt-image-1.png",
+            "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
@@ -29,11 +30,12 @@
         
         {
             "id": 2,
-            "name": "salt2",
+            "name": "gold-frame-eyeglasses",
             "brand": "rayban",
             "featured": false,
             "recommended": true,
             "image": "/eyeglasses/salt-image-1.png",
+            "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
@@ -56,11 +58,12 @@
         
         {
             "id": 3,
-            "name": "salt3",
+            "name": "harry-potter-eyeglasses",
             "brand": "rayban",
             "featured": true,
             "recommended": true,
             "image": "/eyeglasses/salt-image-1.png",
+            "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
@@ -82,11 +85,12 @@
         },
         {
             "id": 4,
-            "name": "salt4",
+            "name": "havana-sunglasses",
             "brand": "rayban",
             "featured": true,
             "recommended": true,
             "image": "/eyeglasses/salt-image-1.png",
+            "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
@@ -109,11 +113,12 @@
         
         {
             "id": 5,
-            "name": "salt5",
+            "name": "rectangle_eyeglasses",
             "brand": "rayban",
             "featured": true,
             "recommended": true,
             "image": "/eyeglasses/salt-image-1.png",
+            "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
@@ -136,11 +141,12 @@
         
         {
             "id": 6,
-            "name": "salt6",
+            "name": "sunglasses_euphoria",
             "brand": "rayban",
             "featured": true,
             "recommended": true,
             "image": "/eyeglasses/salt-image-1.png",
+            "price": 499,
             "imageCollection": [
                 {
                     "id": 1,

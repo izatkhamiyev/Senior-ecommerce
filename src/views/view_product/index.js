@@ -14,7 +14,11 @@ import useRecommendedProducts from 'hooks/useRecommendedProducts';
 import api from 'apis/api'
 
 const ViewProduct = () => {
-
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     const { id } = useParams();
     const history = useHistory();
     const store = {product: api.getProduct(id), basket: []}
@@ -123,7 +127,7 @@ const ViewProduct = () => {
                         >
                             Virtual Try-On
                         </button>
-                        <TryOn show={show} closeModal={closeModal} />
+                        <TryOn show={show} closeModal={closeModal} modelName={product.name} />
                     </div>
                 </div>
             </div>
