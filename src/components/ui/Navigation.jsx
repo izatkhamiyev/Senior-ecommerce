@@ -2,7 +2,7 @@
 import * as ROUTE from 'constants/routes';
 import React, { useEffect, useRef } from 'react';
 import { Link, NavLink, useHistory, useLocation } from 'react-router-dom';
-import logo from 'static/logo-full.png';
+import logo from 'static/logo-tmp.png';
 
 import Badge from './Badge'
 import MobileNavigation from './MobileNavigation';
