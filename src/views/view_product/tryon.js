@@ -3,6 +3,7 @@ import {Modal, Button} from 'react-bootstrap';
 import {base_url} from 'constants/urls';
 import {api_key} from 'constants/keys';
 
+// TODO add selected color and selected size to api;
 const TryOn = (props) => {
     // const [showModal, setShowModal] = useState(false);      
     return (
