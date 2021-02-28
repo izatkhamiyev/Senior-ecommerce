@@ -2,14 +2,13 @@
 import * as ROUTE from 'constants/routes';
 import React, { useEffect, useRef } from 'react';
 import { Link, NavLink, useHistory, useLocation } from 'react-router-dom';
-import logo from 'static/logo-tmp.png';
-
+import logo from 'images/logo.png';
+import basket from 'images/basket.webp';
 import Badge from './Badge'
 import MobileNavigation from './MobileNavigation';
+import BasketToggle from '../basket/BasketToggle';
 
-
-
-const Navigation = () => {
+const Navigation = (props) => {
 	const navbar = useRef(null);
 	const history = useHistory();
 	const { pathname } = useLocation();
@@ -54,9 +53,18 @@ const Navigation = () => {
 	
 				<ul className="navigation-menu">
 					<li className="navigation-menu-item">
-                    <Badge count={0}>
-                        <i className="fa fa-shopping-bag" style={{ fontSize: '2rem' }} />
-                    </Badge>
+					<BasketToggle>
+							{({ onClickToggle }) => (
+								<button
+									className="button-link navigation-menu-link basket-toggle"
+									onClick={onClickToggle}
+								>
+								<Badge count={props.basket.length}>
+									<img src={basket} style={{width: 40, height:40}}/>
+								</Badge>
+								</button>
+							)}
+						</BasketToggle>
 					</li>			
 				</ul>
 			</nav>

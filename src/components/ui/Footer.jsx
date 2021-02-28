@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<footer className="footer">
 			<div className="footer-col-1">
-				<strong><span>Developed by <a href="https://github.com/jgudo">JULIUS GUEVARRA</a></span></strong>
+				<strong><span>Developed by <a href="https://github.com/izatkhamiyev/Senior-ecommerce">Izat and Nurtas</a></span></strong>
 			</div>
 			<div className="footer-col-2">
 				{/* <img className="footer-logo" src={logo} /> */}
@@ -15,7 +15,7 @@ const Footer = () => {
 				<strong>
 					<span>
 						Fork this project &nbsp;
-            <Link to='/'>HERE</Link>
+            			<Link to='/'>HERE</Link>
 					</span>
 				</strong>
 			</div>

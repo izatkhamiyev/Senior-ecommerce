@@ -4,10 +4,11 @@ import ProductItem from 'components/product/ProductItem';
 import useProducts from 'hooks/useProducts';
 
 
-const Shop = () => {
+const Shop = (props) => {
 
     const [columnCount, setColumnCount] = useState(6);
     const productListWrapper = useRef(null);
+    const foundOnBasket = (product) => props.basket.find(item => item.id === product.id);
 
     const {
 		products,
@@ -44,10 +45,11 @@ const Shop = () => {
                         {
                             products.map(product => (
                                 <ProductItem
-                                    isItemOnBasket={false}
+                                    isItemOnBasket={foundOnBasket(product)}
                                     key={product.id}
                                     isLoading={false}
                                     product={product}
+                                    setBasket={props.setBasket}
                                 />
                             ))
                         }

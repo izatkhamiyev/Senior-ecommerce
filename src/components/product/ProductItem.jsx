@@ -3,11 +3,14 @@ import PropTypes from 'prop-types';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import { useHistory } from 'react-router-dom';
 import ImageLoader from '../ui/ImageLoader';
+import { getBasket, removeFromBasket, addToBasket } from 'helpers/basketActions';
+import { displayActionMessage} from 'helpers/utils';
 
 const ProductItem = ({
 	product,
 	isItemOnBasket,
-	isLoading
+	isLoading,
+	setBasket
 }) => {
 	const history = useHistory();
 
@@ -29,13 +32,14 @@ const ProductItem = ({
 		return format.format(n);
 	}
 	const onAddToBasket = () => {
-		// if (isItemOnBasket) {
-		// 	dispatch(removeFromBasket(product.id));
-		// 	displayActionMessage('Item removed from basket', 'info');
-		// } else {
-		// 	dispatch(addToBasket(product));
-		// 	displayActionMessage('Item added to basket', 'success');
-		// }
+		if (isItemOnBasket) {
+			removeFromBasket(product.id);
+			displayActionMessage('Item removed from basket', 'info');
+		} else {
+			addToBasket(product);
+			displayActionMessage('Item added to basket', 'success');
+		}
+		setBasket(getBasket())
 	};
 
 	return (
@@ -80,9 +84,9 @@ const ProductItem = ({
 	);
 };
 
-// ProductItem.propType = {
-// 	product: PropTypes.object.isRequired,
-// 	isItemOnBasket: PropTypes.bool
-// };
+ProductItem.propType = {
+	product: PropTypes.object.isRequired,
+	isItemOnBasket: PropTypes.bool
+};
 
 export default ProductItem;

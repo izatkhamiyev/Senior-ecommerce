@@ -6,14 +6,15 @@ import ProductFeatured from 'components/product/ProductFeatured';
 import CircularProgress from 'components/ui/ImageLoader';
 import MessageDisplay from 'components/ui/MessageDisplay';
 import TryOn from './tryon';
+import { getBasket, removeFromBasket, addToBasket } from 'helpers/basketActions';
 
 import { SHOP } from 'constants/routes';
-// import { displayMoney, displayActionMessage } from 'helpers/utils';
+import { displayMoney, displayActionMessage } from 'helpers/utils';
 // import ColorChooser from 'components/ui/ColorChooser';
 import useRecommendedProducts from 'hooks/useRecommendedProducts';
 import api from 'apis/api'
 
-const ViewProduct = () => {
+const ViewProduct = (props) => {
     
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -21,7 +22,7 @@ const ViewProduct = () => {
     
     const { id } = useParams();
     const history = useHistory();
-    const store = {product: api.getProduct(id), basket: []}
+    const store = {product: api.getProduct(id), basket: props.basket}
 
     // useDocumentTitle(`View ${store.product ? store.product.name : 'Item'}`);
 
@@ -42,10 +43,20 @@ const ViewProduct = () => {
         );
     }
 
+    const onAddToBasket = () => {
+        if (foundOnBasket()) {
+            removeFromBasket(product.id);
+            displayActionMessage('Item removed from basket', 'info');
+        } else {
+            addToBasket({ ...product, selectedColor, selectedSize });
+            displayActionMessage('Item added to basket', 'success');
+        }
+        props.setBasket(getBasket());
+    };
+
     const onSelectedSizeChange = (newValue) => {
         setSelectedSize(newValue.value);
     };
-
 
     const onSelectedColorChange = (color) => {
         setSelectedColor(color);
@@ -115,11 +126,11 @@ const ViewProduct = () => {
                             {/* <ColorChooser availableColors={product.availableColors} onSelectedColorChange={onSelectedColorChange} /> */}
                         </div>
                     )}
-                    {/* <h1>{displayMoney(product.price)}</h1> */}
+                    <h1>{displayMoney(product.price)}</h1>
                     <div className="product-modal-action">
                         <button
                             className={`button button-small ${foundOnBasket() ? 'button-border button-border-gray' : ''}`}
-                            // onClick={onAddToBasket}
+                            onClick={onAddToBasket}
                         >
                             {foundOnBasket() ? 'Remove From Basket' : 'Add To Basket'}
                         </button>
