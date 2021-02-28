@@ -4,7 +4,6 @@ import {base_url} from 'constants/urls';
 import {api_key} from 'constants/keys';
 
 const TryOn = (props) => {
-
     // const [showModal, setShowModal] = useState(false);      
     return (
         <Modal

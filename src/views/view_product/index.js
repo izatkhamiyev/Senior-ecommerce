@@ -10,7 +10,7 @@ import { getBasket, removeFromBasket, addToBasket } from 'helpers/basketActions'
 
 import { SHOP } from 'constants/routes';
 import { displayMoney, displayActionMessage } from 'helpers/utils';
-// import ColorChooser from 'components/ui/ColorChooser';
+import ColorChooser from 'components/ui/ColorChooser';
 import useRecommendedProducts from 'hooks/useRecommendedProducts';
 import api from 'apis/api'
 
@@ -123,7 +123,8 @@ const ViewProduct = (props) => {
                         <div>
                             <span className="text-subtle">Choose Color</span>
                             <br /><br />
-                            {/* <ColorChooser availableColors={product.availableColors} onSelectedColorChange={onSelectedColorChange} /> */}
+                            <ColorChooser availableColors={product.availableColors} onSelectedColorChange={onSelectedColorChange} />
+                            <br />
                         </div>
                     )}
                     <h1>{displayMoney(product.price)}</h1>
@@ -138,7 +139,7 @@ const ViewProduct = (props) => {
                         >
                             Virtual Try-On
                         </button>
-                        <TryOn show={show} closeModal={closeModal} modelName={product.name} />
+                        <TryOn show={show} closeModal={closeModal} modelName={product.name} selectedColor={selectedColor}/>
                     </div>
                 </div>
             </div>
