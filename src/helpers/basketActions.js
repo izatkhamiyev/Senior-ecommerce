@@ -4,6 +4,10 @@ export const setBasket = (items) => {
 }
 
 export const getBasket = () => {
+    var data = JSON.parse(localStorage.getItem('basket'));
+    if (data === null){
+        setBasket([]);
+    }
     return JSON.parse(localStorage.getItem('basket'));
 }
 
