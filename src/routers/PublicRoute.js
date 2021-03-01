@@ -8,15 +8,15 @@ import { getBasket, setBasket, clearBasket } from 'helpers/basketActions';
 
 
 const PublicRoute = ({component: Component, ...rest}) => {
-	const [basket, setBasket] = useState(getBasket, []);
+	const [basket, setBasketHook] = useState(getBasket, []);
 
-	return <Route {...rest} basket={basket} setBasket={setBasket} component={(props) => {
+	return <Route {...rest} basket={basket} setBasket={setBasketHook} component={(props) => {
 		return (			
                 <>
-                    <Navigation basket={basket} setBasket={setBasket}/>
-					<Basket basket={basket} setBasket={setBasket} />
+                    <Navigation basket={basket} setBasket={setBasketHook}/>
+					<Basket basket={basket} setBasket={setBasketHook} />
                     <main className="content">
-                        <Component {...props} basket={basket} setBasket={setBasket}/>
+                        <Component {...props} basket={basket} setBasket={setBasketHook}/>
                     </main>
                     <Footer />
                 </>
