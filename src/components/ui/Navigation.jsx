@@ -31,6 +31,7 @@ const Navigation = (props) => {
     return window.screen.width <= 800 ? (
 		<MobileNavigation
 			pathname={pathname}
+			basket={props.basket}
 		/>
         ) : (
 			<nav
@@ -53,7 +54,7 @@ const Navigation = (props) => {
 	
 				<ul className="navigation-menu">
 					<li className="navigation-menu-item">
-					<BasketToggle>
+						<BasketToggle>
 							{({ onClickToggle }) => (
 								<button
 									className="button-link navigation-menu-link basket-toggle"
