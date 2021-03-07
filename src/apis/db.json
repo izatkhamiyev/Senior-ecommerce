@@ -2,8 +2,9 @@
     "products": [
         {
             "id": 1,
-            "name": "eyeglasess_transparent",
-            "brand": "rayban",
+            "name": "Salt",
+            "model": "eyeglasess_transparent",
+            "brand": "Rayban",
             "featured": true,
             "recommended": true,
             "image": "/eyeglasses/salt-image-1.png",
@@ -30,24 +31,25 @@
         
         {
             "id": 2,
-            "name": "gold-frame-eyeglasses",
-            "brand": "rayban",
+            "name": "Gold",
+            "model": "gold-frame-eyeglasses",
+            "brand": "Tommy Hilfiger",
             "featured": false,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-1.png",
+            "image": "/eyeglasses/salt-image-2.png",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-2.png"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-2.png"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-2.png"
                 }
             ],
             "availableColors": [
@@ -58,24 +60,25 @@
         
         {
             "id": 3,
-            "name": "harry-potter-eyeglasses",
-            "brand": "rayban",
+            "name": "Harry Potter",
+            "model": "harry-potter-eyeglasses",
+            "brand": "Boss",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-1.png",
+            "image": "/eyeglasses/salt-image-3.png",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-3.png"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-3.png"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-3.png"
                 }
             ],
             "availableColors": [
@@ -85,24 +88,25 @@
         },
         {
             "id": 4,
-            "name": "havana-sunglasses",
-            "brand": "rayban",
+            "name": "Havana",
+            "model": "havana-sunglasses",
+            "brand": "Dior",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-1.png",
+            "image": "/eyeglasses/salt-image-4.png",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-4.png"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-4.png"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-4.png"
                 }
             ],
             "availableColors": [
@@ -113,24 +117,25 @@
         
         {
             "id": 5,
-            "name": "rectangle_eyeglasses",
-            "brand": "rayban",
+            "name": "Rectangular",
+            "model": "rectangle_eyeglasses",
+            "brand": "Rayban",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-1.png",
+            "image": "/eyeglasses/salt-image-5.png",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-5.png"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-5.png"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-5.png"
                 }
             ],
             "availableColors": [
@@ -141,24 +146,25 @@
         
         {
             "id": 6,
-            "name": "sunglasses_euphoria",
-            "brand": "rayban",
+            "name": "Euphoria",
+            "model": "sunglasses_euphoria",
+            "brand": "John Jacobs",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-1.png",
+            "image": "/eyeglasses/salt-image-7.png",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-7.png"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-7.png"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-image-7.png"
                 }
             ],
             "availableColors": [

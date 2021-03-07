@@ -16,7 +16,6 @@ export const clearBasket = () => {
 }
 
 export const addToBasket = (product) => {
-    console.log(product);
 	var products = getBasket();
     product.quantity = 1;
     products.push(product);
@@ -25,9 +24,7 @@ export const addToBasket = (product) => {
 
 export const removeFromBasket = (id) => {
     var products = getBasket();
-    console.log(products);
     products = products.filter(val => val.id !== id)
-    console.log(products)
     setBasket(products);
     return getBasket()
 }

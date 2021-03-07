@@ -7,7 +7,6 @@ const ColorChooser = ({ availableColors, onSelectedColorChange }) => {
         setSelectedColor(color);
         onSelectedColorChange(color);
     }
-    console.log(availableColors)
     return (
         <div className="color-chooser">
             {availableColors.map(color =>

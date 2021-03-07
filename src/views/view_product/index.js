@@ -139,7 +139,7 @@ const ViewProduct = (props) => {
                         >
                             Virtual Try-On
                         </button>
-                        <TryOn show={show} closeModal={closeModal} modelName={product.name} selectedColor={selectedColor}/>
+                        <TryOn show={show} closeModal={closeModal} modelName={product.model} selectedColor={selectedColor}/>
                     </div>
                 </div>
             </div>
