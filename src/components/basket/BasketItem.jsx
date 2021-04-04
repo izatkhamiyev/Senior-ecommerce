@@ -6,7 +6,9 @@ import { displayMoney } from 'helpers/utils';
 import BasketItemControl from './BasketItemControl';
 import Badge from '../ui/Badge';
 import ImageLoader from '../ui/ImageLoader';
-import trash from 'images/trash.webp'
+import trash from 'images/trash.webp';
+import color_image from 'images/color.png';
+
 
 const BasketItem = ({product, setBasket }) => {
 	const onRemoveFromBasket = () => {
@@ -31,7 +33,7 @@ const BasketItem = ({product, setBasket }) => {
 				</div>
 				<div className="basket-item-details">
 					<h5 className="basket-item-name">
-						{product.selectedColor && <i className="fa fa-square" style={{ color: product.selectedColor }} />}
+						{product.selectedColor && <span style={{width: 10, height:10, backgroundColor: product.selectedColor }}>&nbsp;&nbsp;&nbsp;</span>}
 						&nbsp;
 						{product.name}
 					</h5>

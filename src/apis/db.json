@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Salt",
-            "model": "eyeglasess_transparent",
+            "model": "eyeglasses-transparent",
             "brand": "Rayban",
             "featured": true,
             "recommended": true,
@@ -24,8 +24,10 @@
                 }
             ],
             "availableColors": [
-                "yellow",
-                "red"
+                "green",
+                "pink",
+                "red",
+                "skyblue"
             ]
         },
         
@@ -53,8 +55,6 @@
                 }
             ],
             "availableColors": [
-                "yellow",
-                "red"
             ]
         },
         
@@ -82,15 +82,13 @@
                 }
             ],
             "availableColors": [
-                "yellow",
-                "red"
             ]
         },
         {
             "id": 4,
-            "name": "Havana",
-            "model": "havana-sunglasses",
-            "brand": "Dior",
+            "name": "Sunglasses Square",
+            "model": "sunglasses-rayban",
+            "brand": "Rayban",
             "featured": true,
             "recommended": true,
             "image": "/eyeglasses/salt-image-4.png",
@@ -110,15 +108,17 @@
                 }
             ],
             "availableColors": [
-                "yellow",
-                "red"
+                "black",
+                "red",
+                "white",
+                "yellow"
             ]
         },
         
         {
             "id": 5,
             "name": "Rectangular",
-            "model": "rectangle_eyeglasses",
+            "model": "rectangle-eyeglasses",
             "brand": "Rayban",
             "featured": true,
             "recommended": true,
@@ -139,15 +139,15 @@
                 }
             ],
             "availableColors": [
-                "yellow",
-                "red"
+                "gold",
+                "gray"
             ]
         },
         
         {
             "id": 6,
             "name": "Euphoria",
-            "model": "sunglasses_euphoria",
+            "model": "sunglasses-euphoria",
             "brand": "John Jacobs",
             "featured": true,
             "recommended": true,
@@ -165,7 +165,30 @@
             ],
             "availableColors": [
                 "yellow",
-                "red"
+                "purple"
+            ]
+        },
+        
+        {
+            "id": 7,
+            "name": "Rage",
+            "model": "sunglasses-rage",
+            "brand": "Tom Ford",
+            "featured": true,
+            "recommended": true,
+            "image": "/eyeglasses/salt-image-1.png",
+            "price": 499,
+            "imageCollection": [
+                {
+                    "id": 1,
+                    "url": "/eyeglasses/salt-image-1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "/eyeglasses/salt-image-1.png"
+                }
+            ],
+            "availableColors": [
             ]
         }
     ]

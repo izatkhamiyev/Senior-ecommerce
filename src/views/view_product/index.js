@@ -60,7 +60,7 @@ const ViewProduct = (props) => {
 
     const onSelectedColorChange = (color) => {
         setSelectedColor(color);
-        colorOverlay.current.value = color;
+        // colorOverlay.current.value = color;
     };
 
     const showModal = () => {
@@ -140,7 +140,7 @@ const ViewProduct = (props) => {
                             Virtual Try-On
                         </button>
                         {selectedColor ? 
-                        <TryOn show={show} closeModal={closeModal} modelName={product.model + '_' + selectedColor} selectedColor={selectedColor}/>
+                        <TryOn show={show} closeModal={closeModal} modelName={product.model + '-' + selectedColor} selectedColor={selectedColor}/>
                          : 
                         <TryOn show={show} closeModal={closeModal} modelName={product.model} selectedColor={selectedColor}/>
                         }
