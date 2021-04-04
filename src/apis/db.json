@@ -88,23 +88,23 @@
             "id": 4,
             "name": "Sunglasses Square",
             "model": "sunglasses-rayban",
-            "brand": "Rayban",
+            "brand": "Tom Ford",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-4.png",
+            "image": "/eyeglasses/square-1.jpeg",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-4.png"
+                    "url": "/eyeglasses/square-1.jpeg"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-4.png"
+                    "url": "/eyeglasses/square-2.jpeg"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-4.png"
+                    "url": "/eyeglasses/square-3.jpeg"
                 }
             ],
             "availableColors": [
@@ -173,19 +173,23 @@
             "id": 7,
             "name": "Rage",
             "model": "sunglasses-rage",
-            "brand": "Tom Ford",
+            "brand": "Rayban",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-1.png",
+            "image": "/eyeglasses/rage-1.jpg",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/rage-1.jpg"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/rage-2.jpg"
+                },
+                {
+                    "id": 3,
+                    "url": "/eyeglasses/rage-3.jpg"
                 }
             ],
             "availableColors": [
