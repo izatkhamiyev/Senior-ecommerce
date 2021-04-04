@@ -92,7 +92,7 @@ const ViewProduct = (props) => {
                     </div>
                 )}
                 <div className="product-modal-image-wrapper">
-                    <input type="color" disabled ref={colorOverlay} id="color-overlay" />
+                    {/* <input type="color" disabled ref={colorOverlay} id="color-overlay" /> */}
                     <ImageLoader
                         className="product-modal-image"
                         src={selectedImage}
@@ -139,8 +139,13 @@ const ViewProduct = (props) => {
                         >
                             Virtual Try-On
                         </button>
+                        {selectedColor ? 
+                        <TryOn show={show} closeModal={closeModal} modelName={product.model + '_' + selectedColor} selectedColor={selectedColor}/>
+                         : 
                         <TryOn show={show} closeModal={closeModal} modelName={product.model} selectedColor={selectedColor}/>
-                    </div>
+                        }
+                  
+                        </div>
                 </div>
             </div>
             <div style={{ marginTop: '10rem' }}>

@@ -7,20 +7,20 @@
             "brand": "Rayban",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-1.png",
+            "image": "/eyeglasses/salt-1.jpeg",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-1.jpeg"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-2.jpeg"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-1.png"
+                    "url": "/eyeglasses/salt-3.jpeg"
                 }
             ],
             "availableColors": [
@@ -36,20 +36,20 @@
             "brand": "Tommy Hilfiger",
             "featured": false,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-2.png",
+            "image": "/eyeglasses/gold-1.webp",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-2.png"
+                    "url": "/eyeglasses/gold-1.webp"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-2.png"
+                    "url": "/eyeglasses/gold-2.webp"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-2.png"
+                    "url": "/eyeglasses/gold-3.webp"
                 }
             ],
             "availableColors": [
@@ -65,20 +65,20 @@
             "brand": "Boss",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-3.png",
+            "image": "/eyeglasses/harry_potter-1.jpeg",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-3.png"
+                    "url": "/eyeglasses/harry_potter-1.jpeg"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-3.png"
+                    "url": "/eyeglasses/harry_potter-2.jpeg"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-3.png"
+                    "url": "/eyeglasses/harry_potter-3.jpeg"
                 }
             ],
             "availableColors": [
@@ -122,20 +122,20 @@
             "brand": "Rayban",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-5.png",
+            "image": "/eyeglasses/rectangle-1.webp",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-5.png"
+                    "url": "/eyeglasses/rectangle-1.webp"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-5.png"
+                    "url": "/eyeglasses/rectangle-2.webp"
                 },
                 {
                     "id": 3,
-                    "url": "/eyeglasses/salt-image-5.png"
+                    "url": "/eyeglasses/rectangle-3.webp"
                 }
             ],
             "availableColors": [
@@ -151,20 +151,16 @@
             "brand": "John Jacobs",
             "featured": true,
             "recommended": true,
-            "image": "/eyeglasses/salt-image-7.png",
+            "image": "/eyeglasses/euphoria-1.jpeg",
             "price": 499,
             "imageCollection": [
                 {
                     "id": 1,
-                    "url": "/eyeglasses/salt-image-7.png"
+                    "url": "/eyeglasses/euphoria-1.jpeg"
                 },
                 {
                     "id": 2,
-                    "url": "/eyeglasses/salt-image-7.png"
-                },
-                {
-                    "id": 3,
-                    "url": "/eyeglasses/salt-image-7.png"
+                    "url": "/eyeglasses/euphoria-2.jpeg"
                 }
             ],
             "availableColors": [
